@@ -86,6 +86,7 @@ class MusicLibraryController
     input = gets.chomp
     if input == list_songs 
       puts "Playing #{song.name} by #{artist.name}"
+    end 
   end 
   
 end 
